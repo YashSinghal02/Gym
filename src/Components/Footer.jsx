@@ -117,12 +117,12 @@ export default function Footer() {
             <hr className="mt-4 mb-4" style={{backgroundColor:"#333"}}/>
             <div className="row">
                 <div className="col-md-6">
-                    <p className='copyright'>&copy; 2024 Strength
+                    <p className='copyright'>&copy; 2040 Strength
  Lab. All Rights Reserved By Yash Singhal</p>
                 </div>
                 <div className="col-md-6 text-md-end">
                     <div className="social-icons">
-                        <a target='blank' href="https://github.com/YashSinghal001"><i className="fab fa-github"></i></a>
+                        <a target='blank' href="https://github.com/YashSinghal02"><i className="fab fa-github"></i></a>
                         <a target='blank' href="https://www.linkedin.com/in/yashsinghal-fullstackdeveloper/"><i className="fab fa-linkedin-in"></i></a>
                         <a target='blank' href="https://www.instagram.com/yashsinghal21/"><i className="fab fa-instagram"></i></a>
                     </div>

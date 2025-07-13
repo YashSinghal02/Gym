@@ -20,7 +20,7 @@ export default function Sections() {
         <div className="info-box">
             <i className="fas fa-phone-alt"></i>
             <h4>Contact Info</h4>
-            <p>+1 19-6519-9624<br/>info@fitkit.com</p>
+            <p>+91  123-133-4347<br/> Strength Lab@gmail.com</p>
         </div>
     </div>
     

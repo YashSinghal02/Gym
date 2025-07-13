@@ -21,7 +21,7 @@ export default function Home1() {
 
 <div className="innericon">
 <a href="https://www.linkedin.com/in/yashsinghal-fullstackdeveloper/" target='blank'><i className="linkdein fa-brands fa-linkedin"></i></a>
-<a href="https://github.com/YashSinghal001" target='blank'><i className="git fa-brands fa-github"></i></a>
+<a href="https://github.com/YashSinghal02" target='blank'><i className="git fa-brands fa-github"></i></a>
 <a href="https://www.instagram.com/yashsinghal21/" target='blank'><i className="insta fa-brands fa-square-instagram"></i></a>
 </div>
 
@@ -35,7 +35,7 @@ export default function Home1() {
 
 <div className="innericon">
 <a href="https://www.linkedin.com/in/yashsinghal-fullstackdeveloper/" target='blank'><i className="linkdein fa-brands fa-linkedin"></i></a>
-<a href="https://github.com/YashSinghal001" target='blank'><i className="git fa-brands fa-github"></i></a>
+<a href="https://github.com/YashSinghal02" target='blank'><i className="git fa-brands fa-github"></i></a>
 <a href="https://www.instagram.com/yashsinghal21/" target='blank'><i className="insta fa-brands fa-square-instagram"></i></a>
 </div>
     </div>
@@ -49,7 +49,7 @@ export default function Home1() {
 
 <div className="innericon">
 <a href="https://www.linkedin.com/in/yashsinghal-fullstackdeveloper/" target='blank'><i className="linkdein fa-brands fa-linkedin"></i></a>
-<a href="https://github.com/YashSinghal001" target='blank'><i className="git fa-brands fa-github"></i></a>
+<a href="https://github.com/YashSinghal02" target='blank'><i className="git fa-brands fa-github"></i></a>
 <a href="https://www.instagram.com/yashsinghal21/" target='blank'><i className="insta fa-brands fa-square-instagram"></i></a>
 </div>
 

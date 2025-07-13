@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 const testimonials = [
-  { name: "Gofret", logo: "http://tofit.like-themes.com/wp-content/uploads/2024/07/logo_03.png" },
-  { name: "Speak Training", logo: "	http://tofit.like-themes.com/wp-content/uploads/2024/07/logo_02.png" },
-  { name: "Krempeng", logo: "http://tofit.like-themes.com/wp-content/uploads/2024/07/logo_05.png" },
-  { name: "Wild Sport", logo: "http://tofit.like-themes.com/wp-content/uploads/2024/07/logo_04.png" },
-  { name: "Krempeng", logo: "http://tofit.like-themes.com/wp-content/uploads/2024/07/logo_05.png" },
-  { name: "Wild Cat", logo: "http://tofit.like-themes.com/wp-content/uploads/2024/07/logo_06.png" },
+  { name: "Gofret", logo: "https://yashsinghal011.github.io/Only-Images/logo_03.png" },
+  { name: "Speak Training", logo: "https://github.com/YashSinghal011/Only-Images/blob/main/logo_02.png?raw=true" },
+  { name: "Krempeng", logo: "https://github.com/YashSinghal011/Only-Images/blob/main/logo_05.png?raw=true" },
+  { name: "Wild Sport", logo: "https://github.com/YashSinghal011/Only-Images/blob/main/logo_04.png?raw=true" },
+  { name: "Krempeng", logo: "https://github.com/YashSinghal011/Only-Images/blob/main/logo_05.png?raw=true" },
+  { name: "Wild Cat", logo: "https://github.com/YashSinghal011/Only-Images/blob/main/logo_06.png?raw=true" },
 ];
 
 const Branddtestimoinal = () => {
@@ -32,8 +32,8 @@ const Branddtestimoinal = () => {
                   alt={testimonial.name}
                   className="img-fluid mb-2"
                   style={{ 
-                    maxHeight: index === activeIndex ? '70px' : '70px',
-                    maxWidth: index === activeIndex ? '140px' : '140px',
+                    maxHeight: index === activeIndex ? '90px' : '90px',
+                    maxWidth: index === activeIndex ? '150px' : '150px',
                     objectFit: 'contain',
                     transition: 'all 0.3s ease',
                     opacity: index === activeIndex ? 1 : 0.6,

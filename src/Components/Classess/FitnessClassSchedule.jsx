@@ -148,7 +148,7 @@ const FitnessFlipCards = () => {
     : classData.filter(cls => cls.category === activeCategory);
 
   return (
-    <div className="container mt-5 pt-5 ">
+    <div className="container mt-5 pt-5 pb-5 mt-2">
       <div className="d-flex justify-content-center mb-4 flex-wrap">
         {classCategories.map(category => (
           <button
