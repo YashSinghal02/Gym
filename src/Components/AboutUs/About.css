@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 0px;
-    height: 400px;
+    height: 450px !important;
     position: relative;
     background-attachment: fixed;
     padding-bottom: 50px;
@@ -282,6 +282,19 @@ h1 {
 
 
 
+@media (max-width: 768px) {
+  .backimgabout {
+    height: 300px !important; 
+    background-attachment: scroll; 
+  }
+}
+
+@media (max-width: 640px) {
+  .backimgabout {
+    height: 250px !important; 
+    background-attachment: scroll; 
+  }
+}
 
 
 @media (min-width: 768px) {

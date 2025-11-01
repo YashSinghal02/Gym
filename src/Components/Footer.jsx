@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 import { useNavigate } from 'react-router-dom';
+import { motion, useScroll, useMotionValueEvent, useTransform } from "framer-motion";
+
 
 export default function Footer() {
     const navigate = useNavigate();
@@ -8,6 +10,15 @@ export default function Footer() {
     const handleJoinNow = () => {
       navigate('/classses', { state: { WhoAreWe: 'Strength Lab' } });
     };
+
+     const { scrollY } = useScroll();
+
+  useMotionValueEvent(scrollY, "change", (val) => {
+    console.log(val);
+   
+
+  });
+   const opacity = useTransform(scrollY, [100, 200], ["0", "1"]);
   return (
     <div>
       
@@ -130,10 +141,14 @@ export default function Footer() {
             </div>
         </div>
     </footer>
-    <a href="#" className="back-to-top"><i className="fas fa-arrow-up"></i></a>
+    {/* <a href="#" className="back-to-top"><i className="fas fa-arrow-up"></i></a> */}
 
 
-<a href="#" className="back-to-top"><i className="fas fa-arrow-up"></i></a>
+<motion.button className="back-to-top"
+        style={{
+        opacity}}
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          <i className="fa-solid fa-up-long"></i></motion.button>
 
 
     </div>

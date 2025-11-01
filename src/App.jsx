@@ -10,6 +10,7 @@ import AppClass from './Components/Classess/AppClass'
 import AppSchedule from './Components/Schedule/AppSchedule'
 import Blog from './Components/Blog/Blog'
 import AboutUs from './Components/AboutUs/AboutUs'
+import ScrollToTop from './ScrollToTop'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <Router>
+      <ScrollToTop/>
     <Navbar/>
     <Routes>
     <Route path='/' element={<Home/>} />

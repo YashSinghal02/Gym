@@ -10,7 +10,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    height: 400px;
+      height: 400px !important; 
+    background-attachment: scroll; 
     position: relative;
 }
 .bannercontact{
@@ -225,3 +226,17 @@ box-shadow: 0 0 0 0 #ff7b7b;
 } */
 
 /* Map */
+
+@media (max-width: 768px) {
+  .backimg {
+    height: 300px !important; 
+    background-attachment: scroll; 
+  }
+}
+
+@media (max-width: 640px) {
+  .backimg {
+    height: 250px !important; 
+    background-attachment: scroll; 
+  }
+}
