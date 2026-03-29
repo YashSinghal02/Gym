@@ -134,7 +134,7 @@ export default function Footer() {
                 <div className="col-md-6 text-md-end">
                     <div className="social-icons">
                         <a target='blank' href="https://github.com/YashSinghal02"><i className="fab fa-github"></i></a>
-                        <a target='blank' href="https://www.linkedin.com/in/yashsinghal-fullstackdeveloper/"><i className="fab fa-linkedin-in"></i></a>
+                        <a target='blank' href="https://www.linkedin.com/in/yashsinghal01"><i className="fab fa-linkedin-in"></i></a>
                         <a target='blank' href="https://www.instagram.com/yashsinghal21/"><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
